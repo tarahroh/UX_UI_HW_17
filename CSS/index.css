@@ -8,22 +8,22 @@
 
 
 header{
-    width:100%;
-    height:205px;
+    width:1924px;
+    height:105px;
     position: relative;
     box-shadow:  0 3px 6px rgba(0, 0, 0, 16%);
     display: flex;
-    justify-content:left;
-    align-items:flex-start;
+    align-items:flex-end;
     flex-direction: column;
 }
 
 .TopBar{
-Width:100%;
+Width:1924px;
 height:56px;
 background-color:#2f2f2f;
 box-shadow: 0 3px 14px rgba(0, 0, 0, 63%);
 z-index: 1;
+align-self:flex-start;
 }
 
 nav {
@@ -33,7 +33,7 @@ nav {
     display:flex;
 }
 img{
-  align-self: flex-start;
+    width:140px;
   cursor: pointer;
   clip-path: inset(0 0 9% 0);
   margin-right: auto;
@@ -41,14 +41,14 @@ img{
 
 .UxNavBar {
     font-family: 'Montserrat', sans-serif;
-    Font-size: 1.5rem;
+    Font-size: 16px;
     padding: 12px;
     cursor: pointer;
 }
 
 .Industrialarrow {
+    width:20px;
     cursor: pointer;
-
 }
 .HeroPage{
     margin:42px 0 0 140px;
@@ -60,7 +60,7 @@ main {
     height: 83.375rem;
     border:1px solid black;
     font-family: 'Montserrat', sans-serif;
-    Font-size: 20px;
+    Font-size: 16px;
 
 }
 h2{
@@ -85,7 +85,7 @@ h4 {
 
 .skill{
     padding: 16px 16px 86px 0;
-    width: 4.8rem;
+    width: 3.66rem;
 }
 
 button{
@@ -97,8 +97,15 @@ button{
     font-size: 20px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #fafafa;
+    color:#5f6973;
+    border: 2px solid #5f6973;
+    transition:ease-in-out 300ms 300ms
+}
 aside {
-    width:calc(2442px+140);
+    width:50%;
     height:1200px;
     float:right;
     border: 1px solid black;
@@ -112,8 +119,8 @@ aside {
     align-items:flex-end;
 }
 .Coverimage{
+    width:100%;
     position:block;
-   transform:translate(70px,0);
    align-items:flex-end;
    padding: 0px 0 0 0;
    clip-path: inset(0% 6.5% 0% 0%);
