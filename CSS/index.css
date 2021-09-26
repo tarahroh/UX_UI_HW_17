@@ -108,23 +108,43 @@ margin:0 0 0 0;
 }
 
 .footer {
+    border: 1px solid black;
     width: 100%;
-    margin: 0 0 0 0;
+   max-height:500rem;
+    padding: 20px 0 11px 0;
     display:flex;
+    flex-direction: column;
 }
-.socialmedia{
-    float:right;
+.socialmedia {
+    align-self: flex-end;
+    
 }
+hr {li
+    border:none;
+    border-bottom: 1px solid #6D96A6;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+    }
 .sociallinks {
+   width: 4rem;
     padding: 23px 14px 7px 0; 
-
+    justify-content: space-between;
 }
+
 .smalltext {
     font-family: 'SFProText', sans-serif;
     Font-size: 20px;
     font-weight:normal;
     letter-spacing: 0.26px;
     line-height:30px; 
+    margin: 0 0 0 140px;
+}
+#update{
+    font-family: 'SFProText', sans-serif;
+    Font-size: 20px;
+    font-weight:normal;
+    letter-spacing: 0.26px;
+    line-height:30px; 
+    margin: 0 0 0 162px;
 }
 
 
