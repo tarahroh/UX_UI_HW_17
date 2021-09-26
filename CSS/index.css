@@ -87,24 +87,25 @@ button{
     background-color:#5f6973;
     Padding: 5.5px 14px;
     border-radius:18px;
+    font-size: 20px;
 }
 aside {
+    width:50%;
+    height:1200px;
     float:right;
     border: 1px solid black;
-    margin:0 -70px 0 0;
-    display:flex;
-    justify-content: right;
-    align-items:flex-start;
-    flex-direction: column;
+  
+    
 }
 .pdf{
-align-self: flex-end;
-margin:0 70px 131px 0;
-flex-direction: row;
+    float:right;
+    margin:0 16px 131px 0;
 }
 .Coverimage{
-position:block;
-margin:0 0 0 0;
+   position:absolute;
+   padding: 131px 0 0 0;
+   clip-path: inset(5% 20% 15% 10%);
+
 }
 
 .footer {
@@ -119,8 +120,7 @@ margin:0 0 0 0;
     align-self: flex-end;
     
 }
-hr {li
-    border:none;
+hr {border:none;
     border-bottom: 1px solid #6D96A6;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
     }
