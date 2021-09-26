@@ -22,14 +22,13 @@ box-shadow: 0 3px 14px rgba(0, 0, 0, 63%);
 }
 
 nav {
-    width:100%;
+    width:130.5rem;
     height: calc(205px - 56px);
     flex-direction:column;
     display: flex;
     justify-content: left;
     align-items: flex-end;
     flex-direction: row;
-}
 }
 img{
   align-self: flex-start;
@@ -38,11 +37,68 @@ img{
 
 .UxNavBar {
     font-family: 'Montserrat', sans-serif;
-    Font-size: 20px;
+    Font-size: 1.5rem;
     flex-direction: row;
     width:fit-content;
     padding: 12px;
     
 }
-.Industrialarrow{
+.HeroPage{
+    margin:42px 0 0 140px;
+}
+main {
+    float:left;
+    max-width:  674px;
+    max-height: 1000px ;
+    height: 83.375rem;
+    border:1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 20px;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 2.5rem;
+    font-weight:bold;
+    letter-spacing: 0.26px;
+    line-height: 30px;
+    color: #4F758C;
+    width: 200px;
+    height: 48px;
+    margin: 0 55px 8.6px 0;
+    padding: 0 1px 0.6px 0;
+}
+h4 { 
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 1.625rem;
+    font-weight:bold;
+    color: #4F758C; 
+    padding: 69px 0 8.1px 0 
+}
+
+.skill{
+    padding: 16px 16px 86px 0;
+    width: 4.8rem;
+}
+
+button{
+    border:none;
+    Color: #fafafa;
+    background-color:#5f6973;
+    Padding: 5.5px 14px;
+    border-radius:18px;
+}
+aside {
+    float:right;
+    border: 1px solid black;
+    margin:0 -70px 0 0;
+}
+.pdf{
+    margin: 0 0 131px 0;
+    display:block;
+}
+
+.footer {
+    margin: 0 0 0 0;
+    bottom:0;
 }
