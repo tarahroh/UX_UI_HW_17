@@ -29,6 +29,7 @@ nav {
     justify-content: left;
     align-items: flex-end;
     flex-direction: row;
+    
 }
 img{
   align-self: flex-start;
@@ -38,10 +39,12 @@ img{
 .UxNavBar {
     font-family: 'Montserrat', sans-serif;
     Font-size: 1.5rem;
-    flex-direction: row;
-    width:fit-content;
     padding: 12px;
-    
+}
+
+.Industrialarrow{
+    justify-content: right;
+    align-items: flex-start;
 }
 .HeroPage{
     margin:42px 0 0 140px;
@@ -91,20 +94,24 @@ button{
 }
 aside {
     width:50%;
-    height:1200px;
+    height:1000px;
     float:right;
     border: 1px solid black;
-  
-    
+    display:flex;
+    justify-content: right;
+    align-items:flex-start;
 }
 .pdf{
-    float:right;
-    margin:0 16px 131px 0;
+    margin:0 16px 0 0;
+    align-self:flex-start;
+    justify-content: right;
 }
 .Coverimage{
-   position:absolute;
-   padding: 131px 0 0 0;
-   clip-path: inset(5% 20% 15% 10%);
+   transform:translate(70px,0);
+    float:right;
+   padding: 0px 0 0 0;
+   clip-path: inset(0% 6.5% 0% 0%);
+   align-self:flex-end;
 
 }
 
