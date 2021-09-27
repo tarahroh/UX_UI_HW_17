@@ -1,3 +1,6 @@
+
+/*Please note particular parts in the redling have been over calculated and restricted certian movement. This means in appearance it is the same but the pixel values may have had to be changed ever so slightly. for the purposes of the website screen visability structure*/
+
 * {
     box-sizing:border-box;
     padding:0;
@@ -58,8 +61,7 @@ img{
     background-clip:padding-box;
     background-position:bottom center;
     background-repeat: no-repeat;
-    transform: translate(0, 10px);
-    transition:300ms ease-in center;
+    transition:300ms ease-in;
 }
 
 .Industrialarrow {
